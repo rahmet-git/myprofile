@@ -1,0 +1,82 @@
+body{
+    background-color: #f1f9ec;
+}    
+
+#drawer{
+    float: left;
+    width: 25%;
+    height: 100%;
+    background-color: #6F00FF;
+}
+
+#drawer img{
+    width: 50%;
+    display: block;
+    margin: 60% auto;
+    border-radius: 50%;
+}
+
+#menu{
+    float: right;
+    width: 74.6%;
+    border: 1px solid #f1f9ec;
+}
+#menu li {
+    border: 1px solid #f1f9ec;
+    text-align: center;
+}
+
+
+#menu li{
+    list-style-type: none;
+    float: right;
+    width: 10%;
+}
+
+#menu a{
+    text-decoration: none;
+}
+
+#content{
+    width: 36%;
+    height: 50%;
+    border-radius: 7%;
+    color: #bdb76b;
+    background-color: #f0fff0;
+    position: absolute;
+    left: 35%;
+    top: 20%;
+    word-wrap: wrap;
+    word-break: break-all;
+}
+
+#content #detail{
+    color: #3d0c02;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+}
+
+#content #detail h1{
+    display: inline;
+}
+
+#detail a{
+    text-decoration: none;
+}
+
+#detail span{
+    font-family: Garamond, serif;
+}
+.card img{
+    width: 25%;
+    float: left;
+    margin-right: 10%;
+}
+.card{
+    margin-bottom: 10%;
+}
+
+.card p{
+    padding:auto;
+}
+
